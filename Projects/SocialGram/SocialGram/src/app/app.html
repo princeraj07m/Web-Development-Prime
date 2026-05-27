@@ -1,0 +1,152 @@
+
+<body>
+  <div class="wrapper">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">🚀 Angular Bootstrap CLI</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="https://www.npmjs.com/package/ng-b-fa-new">Docs</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://github.com/princeraj07m" target="_blank">GitHub</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://instagram.com/princeraj07m" target="_blank">Instagram</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://linkedin.com/in/princeraj07m" target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <header class="hero text-center py-5">
+        <div class="container">
+          <h1 class="display-4 fw-bold typewriter">Welcome to Angular Bootstrap Project</h1>
+          <p class="lead">A powerful CLI tool to create Angular projects with Bootstrap and FontAwesome.</p>
+          <a href="https://www.npmjs.com/package/ng-b-fa-new" class="btn btn-primary btn-lg px-4 mt-3">Get Started</a>
+        </div>
+      </header>
+
+      <section class="features py-5 my-5">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card text-center shadow-sm border-0 h-100">
+                <div class="card-body">
+                  <i class="fas fa-bolt fa-3x text-primary mb-3"></i>
+                  <h5 class="card-title">Quick Setup</h5>
+                  <p class="card-text">Generate an Angular project with Bootstrap and FontAwesome in seconds.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card text-center shadow-sm border-0 h-100">
+                <div class="card-body">
+                  <i class="fas fa-paint-brush fa-3x text-primary mb-3"></i>
+                  <h5 class="card-title">Styled Components</h5>
+                  <p class="card-text">Includes Bootstrap grids, utilities, and FontAwesome icons out of the box.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card text-center shadow-sm border-0 h-100">
+                <div class="card-body">
+                  <i class="fas fa-box-open fa-3x text-primary mb-3"></i>
+                  <h5 class="card-title">Ready to Use</h5>
+                  <p class="card-text">Start coding your Angular project immediately with no extra setup required.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-light py-4">
+      <div class="container text-center">
+        <p class="mb-2">Made with ❤️ by Prince</p>
+        <div>
+          <a href="https://github.com/princeraj07m" target="_blank" class="text-light mx-2"><i class="fab fa-github"></i></a>
+          <a href="https://instagram.com/princeraj07m" target="_blank" class="text-light mx-2"><i class="fab fa-instagram"></i></a>
+          <a href="https://linkedin.com/in/princeraj07m" target="_blank" class="text-light mx-2"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p class="mt-2 mb-0 small">&copy; 2025 Angular Bootstrap CLI. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+
+<style>
+    /* Global Styles */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+/* Navbar */
+.navbar {
+  padding: 1.5rem 1rem;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  padding: 100px 20px;
+}
+
+.hero .lead {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Typewriter Effect */
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 3px solid #fff;
+  white-space: nowrap;
+  animation: typing 4s steps(40, end), blink .75s step-end infinite;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from, to { border-color: transparent }
+  50% { border-color: #fff; }
+}
+
+/* Features Section */
+.features .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
+}
+
+.features .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.features .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+</style>
